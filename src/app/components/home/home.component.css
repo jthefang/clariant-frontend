@@ -1,0 +1,77 @@
+h1.pitch {
+  font-weight: 800;
+}
+div.padding {
+  padding-bottom: 7rem;
+}
+div.bg-faded-white {
+  background-color: #fafdff;
+}
+
+div.first-content {
+  height: 85vh;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  img.first {
+    max-width: 100%;
+    max-height:100%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) {
+  img.first {
+    max-width: 70%;
+    max-height:70%;
+  }
+  img.fit {
+    max-width: 80%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  img.first {
+    max-width: 80%;
+    max-height:80%;
+  }
+  img.fit {
+    max-width: 100%;
+    max-height:100%;
+  }
+}
+
+p.demo {
+  margin: 2rem 0 1.5rem;
+}
+button.setup-demo {
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+button.setup-demo:hover {
+  color: #007BFF;
+  background-color: white;
+  border-color: white;
+  transition: color 0.4 ease 0s, border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+  box-shadow: 0px 1px 46px 0px rgba(0,0,0,0.2);
+}
+button.setup-demo a:hover {
+  text-decoration: none;
+}
+
+/*********************************** WHO WE ARE ************************************/
+span.main-idea {
+  color: black;
+  font-weight: bold;
+}
+p.light-text {
+  font-size: larger;
+  color: #8293A1;
+}
+mark.highlight-yellow {
+  background-color: #FCF8BD;
+}
+mark.highlight-purple {
+  background-color: #C4D1F5;
+}
+

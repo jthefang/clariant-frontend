@@ -1,0 +1,49 @@
+footer {
+	padding: 2rem 0;
+}
+button.contact-us {
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+button.contact-us:hover {
+  color: #007BFF;
+  background-color: white;
+  border-color: white;
+  transition: color 0.4 ease 0s, border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+  box-shadow: 0px 1px 46px 0px rgba(0,0,0,0.2);
+}
+.social a {
+	font-size: 3rem; /* makes icons larger */
+  margin: 0.5rem;
+  opacity: 1;
+}
+.fa-stack {
+  height: 1em;
+  width: 1em;
+}
+.fa-social:hover {
+  cursor: pointer;
+}
+.fa-circle {
+  color: white;
+}
+.fa-linkedin {
+  color: #0976b4;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-twitter {
+	color: #00aced;
+}
+.fa-google-plus-g {
+	color: #dd4b39;
+}
+.fa-instagram {
+	color: #e1306c;
+}
+.fa-youtube {
+	color: #bb0000;
+}
