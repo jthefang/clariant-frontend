@@ -2,15 +2,17 @@
 <footer class="bg-primary text-white">
   <div class="container-fluid">
     <div class="row align-items-center text-center">
-      <div class="col-md-4">
-        <button class="btn btn-primary contact-us">Contact us</button>
+      <div class="col-md-4 mb-3">
+        <a href="mailto:mmbialy@tamu.edu" target="_blank">
+          <button class="btn btn-primary contact-us">Contact us</button>
+        </a>
       </div>
       <div class="col-md-4">
         <img src="assets/brand.png" width="100" height="100" class="mb-4" alt="">
         <h5>&copy; ThoughtSpace Inc.</h5>
       </div>
       <div class="col-md-4 social">
-        <a href="#" *ngFor="let icon of socialIcons" class="fa-social">
+        <a [href]="icon.link" target="blank" *ngFor="let icon of socialIcons" class="fa-social">
           <span class="fa-stack">
             <fa-icon [icon]="icon.bg" class="fa-stack-1x fa-circle" *ngIf="icon.bg"></fa-icon>
             <fa-icon [icon]="icon.icon" [className]="icon.class" [ngClass]="['fa-stack-2x', 'fa-inverse', 'fa-social']" title="{{icon.id}}"></fa-icon>

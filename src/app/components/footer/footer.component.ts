@@ -14,26 +14,26 @@ export class FooterComponent implements OnInit {
       icon: faLinkedin,
       bg: faSquare,
       class: "fa-linkedin",
-      link: "",
+      link: "https://www.linkedin.com/company/mythoughtspace/",
     },
     {
       id: "Instagram",
       icon: faInstagram,
       class: "fa-instagram",
-      link: "",
+      link: "https://www.instagram.com/thoughtspace.co/",
     },
     {
       id: "Facebook",
       icon: faFacebookSquare,
       bg: faSquare,
       class: "fa-facebook",
-      link: "",
+      link: "https://www.facebook.com/ThoughtSpace.co/",
     },
     {
       id: "Twitter",
       icon: faTwitter,
       class: "fa-twitter",
-      link: "",
+      link: "https://twitter.com/ThoughtSpaceTX",
     }
   ];
 
